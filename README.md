@@ -1,4 +1,4 @@
-# Interactive Canvas Music Project
+# Sound Canvas - Interactive Digital Music Score
 
 This is an interactive web-based application where users can draw on a canvas using six different colors. Each color corresponds to a unique sound sample, and the position of the drawing on the canvas affects the volume and playback timing of the sound.
 
