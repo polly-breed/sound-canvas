@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+#drawingCanvas {
+    border: 1px solid black;
+    background-color: white;
+    cursor: crosshair;
+    width: 800px;
+    height: 400px;
+    position: relative;
+    z-index: 1;
+}
+
+#playhead {
+    position: absolute;
+    width: 2px;
+    height: 400px;
+    background-color: red;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.controls {
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+button#color1 {
+    background-color: black;
+}
+
+button#color2 {
+    background-color: red;
+}
+
+button#color3 {
+    background-color: green;
+}
+
+button#color4 {
+    background-color: blue;
+}
+
+button#color5 {
+    background-color: yellow;
+    color: black;
+}
+
+button#color6 {
+    background-color: magenta;
+}
