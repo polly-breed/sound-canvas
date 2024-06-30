@@ -4,8 +4,24 @@ This is an interactive web-based application where users can draw on a canvas us
 
 ## Features
 
-- Draw on a canvas with six colors.
-- Each color corresponds to a different sound sample.
-- Vertical position affects the volume (from 0 to 200%).
-- Horizontal position affects the timing (0 to 60 seconds across the width).
-- Play, pause, stop, and clear the canvas functionality.
+- Six color options: Black, Red, Green, Blue, Yellow, Magenta
+- Vertical positioning affects volume (0% to 200%)
+- Horizontal positioning affects timing (up to 60 seconds)
+- Playhead moves from left to right, reading the drawing as a music score
+- Buttons for play, pause, stop, and clear
+
+## Usage
+
+- Select a color by clicking one of the color buttons.
+- Draw on the canvas.
+- Use the play, pause, and stop buttons to control playback.
+- Click the clear button to clear the canvas.
+
+## How to Run
+
+1. Open the `index.html` file in a web browser.
+
+## Publishing
+
+This project is published using GitHub Pages. You can view it [here](https://polly-breed.github.io/interactive-canvas).
+
