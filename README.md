@@ -17,11 +17,7 @@ This is an interactive web-based application where users can draw on a canvas us
 - Use the play, pause, and stop buttons to control playback.
 - Click the clear button to clear the canvas.
 
-## How to Run
-
-1. Open the `index.html` file in a web browser.
-
 ## Publishing
 
-This project is published using GitHub Pages. You can view it [here](https://polly-breed.github.io/interactive-canvas).
+This project is published using GitHub Pages. You can view it [here](https://polly-breed.github.io/sound-canvas).
 
